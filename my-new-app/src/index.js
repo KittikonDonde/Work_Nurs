@@ -6,13 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login from './pages/Login';
 import Home from './pages/Home';
+import Sm1 from './pages/Sm1';
 
 const router = createBrowserRouter([{
   path: '/',
-  element: <Login />
-},{
-  path: '/home',
-  element: <Home />
+  element: <Sm1 />
 }
 ]);
 

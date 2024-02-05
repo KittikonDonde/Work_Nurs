@@ -9,18 +9,18 @@ function Sidebar() {
                         <img src="dist/img/1.jpg" class="img-circle elevation-2" alt="User Image" />
                     </div>
                     <div class="info">
-                        <a href="" class="d-block">ตัวชีวัด โรงพยาบาลแม่สอด</a>
+                        <a href="" class="d-block">Nurse Workload</a>
                     </div>
                 </div>
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <li class="nav-header">Neurovascular Disease</li>
+                        <li class="nav-header">Record</li>
                         <li class="nav-item">
                             <a href="" class="nav-link">
                                 <p>
                                     <i class="far remove-outline nav-icon"></i>
 
-                                    Stroke
+                                    Ward
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -30,21 +30,21 @@ function Sidebar() {
                                     <a href="" class="nav-link">
                                         <i class="far remove-outline nav-icon"></i>
                                         <i class="far remove-outline nav-icon"></i>
-                                        <p>DN0101</p>
+                                        <p>SM1</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="" class="nav-link">
                                         <i class="far remove-outline nav-icon"></i>
                                         <i class="far remove-outline nav-icon"></i>
-                                        <p>DN0102</p>
+                                        <p>SM2</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="" class="nav-link">
                                         <i class="far remove-outline nav-icon"></i>
                                         <i class="far remove-outline nav-icon"></i>
-                                        <p>DN0103</p>
+                                        <p>SM3</p>
                                     </a>
                                 </li>
                             </ul>
