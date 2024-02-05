@@ -17,10 +17,6 @@ function Sm1() {
             });
     }, []);
 
-    const z1 = ((data.type5 * 12) + (data.type4 * 7.5) + (data.type3 * 5.5) + (data.type2 * 3.5) + (data.type1 * 1.5)) / (data.type1 + data.type2 + data.type3 + data.type4 + data.type5);
-    const z2 = data.type1 + data.type2 + data.type3 + data.type4 + data.type5
-    const result = (z1 * z2) * 0.3
-
 
     return (
         <Template> {/* ใช้ Template ที่ได้ import มา */}
