@@ -69,7 +69,7 @@ function Sm1() {
                                                         <th>พยาบาล </th>
                                                         <th>PN/NA</th>
                                                         <th>รวมบุคลากร/เวร</th>
-                                                        <th width="15%">Action </th>
+                                                        <th >Action </th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
