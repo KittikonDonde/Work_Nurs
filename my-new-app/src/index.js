@@ -7,9 +7,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import Sm1 from './pages/Sm1';
+import Dashboard from './pages/Dashboard';
+
 
 const router = createBrowserRouter([{
   path: '/',
+  element: <Dashboard />
+},{
+  path: '/sm1',
   element: <Sm1 />
 }
 ]);

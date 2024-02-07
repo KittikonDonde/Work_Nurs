@@ -9,11 +9,17 @@ function Sidebar() {
                         <img src="dist/img/1.jpg" class="img-circle elevation-2" alt="User Image" />
                     </div>
                     <div class="info">
-                        <a href="" class="d-block">Nurse Workload</a>
+                        <a href="/" class="d-block">Nurse Workload</a>
                     </div>
                 </div>
                 <nav class="mt-2">
+
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <a href="/" class="nav-link active">
+                            <p>
+                                Dashboard
+                            </p>
+                        </a>
                         <li class="nav-header">Record</li>
                         <li class="nav-item">
                             <a href="" class="nav-link">
@@ -27,7 +33,7 @@ function Sidebar() {
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
 
-                                    <a href="" class="nav-link">
+                                    <a href="/sm1" class="nav-link">
                                         <i class="far remove-outline nav-icon"></i>
                                         <i class="far remove-outline nav-icon"></i>
                                         <p>SM1</p>
