@@ -9,7 +9,7 @@ function Sidebar() {
                         <img src="dist/img/1.jpg" class="img-circle elevation-2" alt="User Image" />
                     </div>
                     <div class="info">
-                        <a href="/" class="d-block">Nurse Workload</a>
+                        <a href="/" class="d-block">NurseMaesot datacenter</a>
                     </div>
                 </div>
                 <nav class="mt-2">
@@ -20,13 +20,11 @@ function Sidebar() {
                                 Dashboard
                             </p>
                         </a>
-                        <li class="nav-header">Record</li>
                         <li class="nav-item">
                             <a href="" class="nav-link">
                                 <p>
                                     <i class="far remove-outline nav-icon"></i>
-
-                                    Ward
+                                    Workload Nurse
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
