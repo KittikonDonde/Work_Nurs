@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.info-box-text {
+  white-space: pre-wrap; /* ใช้ pre-wrap เพื่อรองรับการเกิดขึ้นบรรทัดใหม่ */
+}

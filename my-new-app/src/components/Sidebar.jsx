@@ -15,9 +15,14 @@ function Sidebar() {
                 <nav class="mt-2">
 
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <a href="/" class="nav-link active">
+                        <a href="/dashboard2" class="nav-link ">
                             <p>
-                                Dashboard
+                                Dashboard1
+                            </p>
+                        </a>
+                        <a href="/" class="nav-link ">
+                            <p>
+                                Dashboard2
                             </p>
                         </a>
                         <li class="nav-item">
