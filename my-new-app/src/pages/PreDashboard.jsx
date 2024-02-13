@@ -169,7 +169,7 @@ function PreDashboard() {
                                         <span class="info-box-number" style={{ fontSize: "20px" }}>92,050</span>
                                     </div>
                                 </div>
-                                <div class="info-box p-3 bg-danger">
+                                <div class="info-box p-3 bg-info">
                                     <span class="info-box-icon"><i class="fas fa-cloud-download-alt"></i></span>
 
                                     <div class="info-box-content">
