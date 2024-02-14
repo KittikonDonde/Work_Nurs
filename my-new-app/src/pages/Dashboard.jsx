@@ -55,7 +55,7 @@ function Dashboard() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3001/api/data')
+        axios.get('http://172.16.39.7:3001/api/data')
             .then(response => {
                 setData(response.data);
             })
