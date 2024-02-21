@@ -9,7 +9,7 @@ function Sm1() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://172.16.39.7:3001/api/data')
+        axios.get('http://172.16.39.7:3002/api/data')
             .then(response => {
                 setData(response.data);
             })
