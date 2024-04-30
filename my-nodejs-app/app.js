@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
 });
 
 app.get('/api/data', (req, res) => {
-  connection.query('SELECT * FROM nurse1', (error, results, fields) => {
+  connection.query('SELECT actual_workplace, COUNT(*) AS count FROM nurse4 GROUP BY actual_workplace', (error, results, fields) => {
     if (error) {
       console.error('Error fetching data from MySQL: ' + error.stack);
       res.status(500).json({ error: 'Error fetching data from MySQL' });
@@ -21,7 +21,7 @@ app.get('/api/data', (req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3010;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

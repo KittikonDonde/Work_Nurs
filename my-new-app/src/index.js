@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Sm1 from './pages/Sm1';
 import Dashboard from './pages/Dashboard';
 import PreDashboard from './pages/PreDashboard';
+import Test from './pages/Test';
 
 
 
@@ -21,6 +22,9 @@ const router = createBrowserRouter([{
 },{
   path: '/dashboard2',
   element: <PreDashboard />
+},{
+  path: '/test',
+  element: <Test />
 }
 ]);
 
